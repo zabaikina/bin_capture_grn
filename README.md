@@ -64,6 +64,17 @@ render the figures. To reproduce a figure from scratch: run the corresponding
 `simulation_result_*` script (uncommenting the `write.csv` lines), then the
 matching `ggplot_*` script.
 
+## Data availability
+
+All figures can be generated using this project.
+The aggregated data needed to reproduce every figure (the `*_for_density.csv`
+and `*_periodogram_df.csv` files, and the `gg_df_*` frames) are included under
+`DATA/`. Some raw simulation outputs — the large trajectory files
+(`*_traj_df.csv`, `3S_TS_B1_Tmax50_5000sim.csv`) — are omitted here due to their
+size and are **available from the authors on request**; they can also
+be regenerated with the `scripts/simulation_result_*` scripts. See
+`DATA/README.md` for the full file listing.
+
 ## Citation
 
 If you use this code, please cite the paper and this repository (Zenodo DOI).
