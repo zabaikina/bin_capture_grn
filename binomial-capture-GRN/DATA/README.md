@@ -39,6 +39,16 @@ CSVs read via `list.files()` by `scripts/ggplot_discrete_result.R` and
 - `discrete_works/`  — discrete CME regime where the mapping holds
 - `discrete_breaks/` — discrete CME regime where the mapping breaks down
 
+## Large raw files (available on request)
+
+The raw trajectory files — `3S_periodogram/act_traj_df.csv` and the per-p
+`obs_traj_df.csv` / `map_traj_df.csv`, together with `3S_TS_B1_Tmax50_5000sim.csv`
+— are too large to host here and are **available from the authors on reasonable
+request**. They are not needed to reproduce the figures: the aggregated
+`*_for_density.csv` and `*_periodogram_df.csv` files (included) are what the
+`ggplot_*` scripts read. The raw trajectories can also be regenerated with the
+simulation scripts (see below).
+
 ## Regenerating
 
 Run the matching `scripts/simulation_result_*` script with its `write.csv(...)`
